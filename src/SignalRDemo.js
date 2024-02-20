@@ -7,7 +7,7 @@ const SignalRDemo = () => {
 
   useEffect(() => {
     const newConnection = new signalR.HubConnectionBuilder()
-      .withUrl("http://localhost:5001/hub")
+      .withUrl("[paste your SignalR URL here]")
       .build();
 
     setConnection(newConnection);
